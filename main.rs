@@ -12,7 +12,7 @@ use tera::{Context, Tera};
 use tracing::{info, error};
 use uuid::Uuid;
 use validator::Validate;
-
+//
 #[allow(dead_code)]
 #[derive(Debug, Serialize, Deserialize, sqlx::FromRow)]
 struct User {
